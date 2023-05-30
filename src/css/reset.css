@@ -60,3 +60,11 @@ button{
     background: transparent;
 	
 }
+
+textarea{
+    resize: none
+}
+
+a{
+	color: black;
+}

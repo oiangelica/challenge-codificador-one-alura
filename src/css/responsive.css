@@ -1,0 +1,57 @@
+@media(max-width:500px){   
+    .entrada-de-texto, .entrada-de-texto::placeholder{
+        font-size: 24px;
+    }
+    .botoes{
+        display: flex;
+        flex-direction: column;
+    }
+    .botoes button{
+        width: 90%;
+    }
+    .placeholder-texto-tratado{
+        min-width: 300px;
+    }
+}
+
+@media(max-width:950px){
+    .container{
+        display: flex;
+        flex-direction: column;     
+        align-items: center;   
+    }
+    .entrada-de-texto{
+        width: 90%;
+    } 
+    .placeholder-texto-tratado{
+        width: 90%;
+        height: auto;
+        padding: 30px;
+        margin: auto;
+    }
+    .sem-texto p {
+        padding: 10px 50px;
+    }
+    .botao-copiar{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-copiar{
+       margin: 0 10%;
+    }
+    .texto-tratado{
+        height: 40vh;
+        margin-bottom: 11%;
+    }
+    .footer{
+        justify-content: center;
+    }
+}
+@media(max-width:1350px){
+       .entrada-de-texto{
+        width: 80%;
+    }
+    .botoes .btn-criptografar, .btn-descriptografar{
+        margin-bottom: 15px;        
+    }
+}

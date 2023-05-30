@@ -1,58 +1,55 @@
 body {
     font-family: 'Inter', sans-serif;
     font-size: 62.5%;
-    width: 1440px;
+    max-width: 1440px;
     background-color: #E5E5E5;
     margin: auto;
 }
 
 .logo-alura {
-    padding: 40px 0 0 84px;
-    /* padding: 40px 84px; */
+    padding: 40px 0 20px 84px;
 }
 
 .container {
-    display: flex;
-}
-
-.section-fixa{
-    margin-left: 10%;
-    display: flex;
-    flex-direction: column;
+    display: flex;    
     flex-shrink: 1;
 }
 
-.entrada-de-texto {
+.section-fixa{    
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin-left: 10%;
+}
+
+.entrada-de-texto, ::placeholder {
     border: none;
     background-color: #E5E5E5;
     font-family: 'Inter', sans-serif;
     font-size: 3.2rem;
     color: #0A3871;
-    height: auto;
-}::placeholder {
-    font-family: 'Inter', sans-serif;
-    font-size: 3.2rem;
-    color: #0A3871;
+    height: 84.5%;
+    text-transform: lowercase;
+    padding-right: 5%;
+    display: flex;
 }:focus {
     outline: none;
-    /* text-transform: lowercase; fazer com js  */
 }
 
 .mensagem-alerta {
     color: #495057;
     font-size: 12px;
     padding-bottom: 16px;
-
 }
 
 button{
-    width: 280px;
+    width: 40%;
+    min-width: 150px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     border-radius: 24px;
     padding: 24px;
-    transition: 0.3s ease-in-out;
-    
+    transition: 0.3s ease-in-out;    
 }
 
 button:hover{
@@ -64,30 +61,25 @@ button:hover{
     background-color:#0A3871;    
     color: #FFFFFF;
     margin-right: 24px;
-    margin-bottom: 72px;
 }
 
 .botoes .btn-descriptografar{
     background-color: #D8DFE8;
     border: 1px solid #0A3871;
     color: #0A3871;
-    margin-bottom: 72px;
 }
 
 .placeholder-texto-tratado{
-    height: auto;
+    min-width: 340px;
     background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    flex-shrink: 1;
     width: 25%;
     border-radius: 32px;
     position: relative;
-    height: 70vh;
+    height: 75vh;
+    margin-right: 5%;
 }
 
-#com-texto{  /* remover quando tiver texto */
+.com-texto{ 
     display: none;
     position: relative;
 }
@@ -96,8 +88,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;   
-    /* display: none; //adicionar quando tiver texto// */
+    height: 100%; 
 }
 
 .imagem-boneco{    
@@ -115,7 +106,6 @@ button:hover{
     line-height: 28.8px;
     color:#343A40; 
     padding: 16px 0;
-
 }
 
 .sem-texto p{
@@ -124,7 +114,6 @@ button:hover{
     color: #495057;
     line-height: 24px;
     padding:  20px 50px;
-
 }
 
 .texto-tratado{
@@ -148,8 +137,23 @@ button:hover{
     text-align: center;
     margin: 10px 10%;
     position: absolute;
-    bottom: 10px;  
+    bottom: 10px;     
+}
 
+footer{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin-left: 10%;
+    font-size: 16px;
+}
+
+footer p{
+   margin: 10px; 
    
+}
+
+footer a {
+    color: #0A3871;
 }
 
