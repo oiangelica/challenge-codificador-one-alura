@@ -43,7 +43,7 @@ body {
 }
 
 button{
-    width: 40%;
+    width: 30%;
     min-width: 150px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -57,13 +57,17 @@ button:hover{
     cursor: pointer;
 }
 
-.botoes .btn-criptografar{
-    background-color:#0A3871;    
-    color: #FFFFFF;
-    margin-right: 24px;
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.botoes .btn-descriptografar{
+.botoes .btn-criptografar, .btn-colar {
+    background-color:#0A3871;    
+     color: #FFFFFF;
+}
+
+.botoes .btn-descriptografar {
     background-color: #D8DFE8;
     border: 1px solid #0A3871;
     color: #0A3871;

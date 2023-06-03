@@ -51,7 +51,7 @@
        .entrada-de-texto{
         width: 80%;
     }
-    .botoes .btn-criptografar, .btn-descriptografar{
+    .botoes .btn-criptografar, .btn-descriptografar, .btn-colar{
         margin-bottom: 15px;        
     }
 }
