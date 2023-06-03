@@ -8,6 +8,7 @@ body {
 
 .logo-alura {
     padding: 40px 0 20px 84px;
+    transition: 0.5s ease-in-out;
 }
 
 .container {
@@ -147,7 +148,7 @@ button:hover{
 footer{
     display: flex;
     align-items: center;
-    padding: 2%;
+    padding-top: 2%;
     margin-left: 10%;
     font-size: 16px;
 }
